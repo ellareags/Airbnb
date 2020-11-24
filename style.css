@@ -1,0 +1,226 @@
+  body{
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  .main-container{
+    background: url("images/landscape2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh; 
+  }
+  .top-container{
+    width: 85vw; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;  
+  }
+  .top-container a{
+    text-decoration: none;
+    color: navy;
+  }
+  .top-container i{
+    color: navy;
+  }
+  .logo-container{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .logo-container i{
+    font-size: 2rem;
+  }
+  .upperright-container{
+    display: flex;
+    justify-content: 
+    space-between;
+    align-items: center;
+    width: 20%;
+    font-size: 15px;
+  }
+  .upperright-container a{
+    padding: 1.5rem;
+  }
+  .host-container {
+    justify-content: space-between;
+    padding: 1rem; 
+    white-space: nowrap;
+  }
+  .host-container:hover{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 20px;
+    opacity: .4;
+  }
+  .button-container {
+    font-size: 1.3rem;  
+    padding: .2rem; 
+    background-color: white;
+    border-radius: 30px;
+    justify-content: center;
+  }
+  .globe-container i:hover{
+     padding: .5rem; 
+    background-color: white;
+    border-radius: 20px;
+    opacity: .4;
+  }
+  .button-container a{
+    display: flex;
+    text-decoration: none;
+    padding: .4rem;  
+  }
+  .button-container i{
+    padding: .4rem;
+  }
+  .uppernav-container{
+    display: flex;
+    text-align: center; 
+  }
+  .searchbar{
+  display: none;
+  }
+  .uppernav-container a{
+    text-decoration: none;
+    color: navy;
+    justify-content: space-between;
+    padding: 1rem; 
+    font-size: 1rem;
+  }
+  .uppernav-container a:hover{
+    opacity:.5;;  
+  }
+  .option{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: .4rem;
+  }
+  .nav-container{
+    width: 85vw;
+    margin: 0 auto;
+    margin-top: -90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+  }
+  .nav-container form{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 30px;
+  }
+  .location2{
+  display: none; 
+  }
+  .nav-container button{
+  color:white;
+  background-color: deeppink;
+  border: none;
+  border-radius: 30px;
+  height: 5vh;
+  }
+  .middle-container{
+    width: 85vw;
+    margin: 0 auto; 
+    color: white;
+    font-size: 2.8rem;
+    align-items: center;
+  }
+  .middle-container a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    background-color: white;
+    padding: .5rem;
+    border-radius: 30px;
+  }
+  .middle-container h1{
+    width: 10%;
+  }
+  footer {
+    width: 85vw;
+    margin: 0 auto;
+    display: none;
+    color: navy;
+    background-color: white;
+    height: 10vw;
+  }
+  footer i{
+    padding: 1rem;
+  }
+  footer i:hover{
+    color: pink;
+  }
+  @media screen and (max-width: 1125px){
+  .top-container{
+  margin: .9rem;
+  }
+  .top-container a{
+    font-weight: bold;
+  }
+  .uppernav-container a{
+    font-weight: bold;
+    font-size: .9rem;
+  }
+  .logo-container a{
+  display: none;
+  }
+  .middle-container{
+  margin: .9rem;
+  }
+  @media screen and (max-width: 950px){
+  .nav-container{
+    margin-top:-35px; 
+  }
+  .middle-container{
+    font-size: 2rem;
+  }
+  }
+
+  @media screen and (max-width: 744px){
+  body{
+    margin: 0 auto;
+  }
+  .searchbar{
+    display: flex;
+    justify-content: left;
+    padding: .3rem;
+    width: 85vw;
+  }
+  .searchbar i{
+    padding: .3rem;
+  }
+  .nav-container{
+    margin-top: 0px;
+  }
+  .top-container{
+    display:none;
+  }
+  .option{
+    display: none;
+  }
+  .uppernav-container{
+    display: none;
+  }
+  .nav-container button{
+    display: none;
+  }
+  .middle-container{
+    padding: 1rem;
+  }
+  footer{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  footer i{
+    font-size: 1.5rem;
+  }
+  
+  }
